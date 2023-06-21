@@ -1,0 +1,96 @@
+body {
+    font-family: 'Hubballi', cursive;
+    font-size: 20px;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    background: url("../img/bg.jpg");
+}
+
+.logo {
+    display: inline-block;
+    position: absolute;
+    top: 20px;
+    margin-left: 30px;
+}
+
+img {
+    width: 50px;
+}
+
+.mid {
+    display: block;
+    width: 40%;
+    margin: 20px auto;
+}
+
+.right{
+    display: inline-block;
+    position: absolute;
+    right: 20px;
+    top: 9px;
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: #ffffff;
+    padding-right: 20px;
+}
+
+.navbar li a:hover, .navbar li a.active{
+    color: #ffe10d;
+}
+
+.btn {
+    font-family: 'Hubballi', cursive;
+    margin: 0 10px;
+    border: 2px solid #808080;
+    color: #ffffff;
+    background: none;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #2c2c2c;
+}
+
+.container {
+    border: 2px solid #808080;
+    display: inline-block;
+    padding: 15px;
+    margin: 70px 80px;
+    border-radius: 15px;
+    width: 34%;
+    position: absolute;
+    right: 25px;
+}
+
+.container h1, p {
+    text-align: center;
+}
+
+.form-group input {
+    border: 2px solid #808080;
+    border-radius: 10px;
+    text-align: center;
+    display: block;
+    width: 250px;
+    padding: 8px;
+    margin: 5px auto;
+}
+
+.container button {
+    display: block;
+    margin: 10px auto;
+    width: 250px;
+}
